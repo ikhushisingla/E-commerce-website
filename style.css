@@ -500,11 +500,13 @@ footer .logo{
 footer h4{
   font-size: 14px;
   padding-bottom: 20px;
+  columns: black;
 }
 
 footer p{
   font-size: 13px;
   margin: 0 0 8px 0;
+  color: #222;
 }
 
 footer a{
@@ -726,6 +728,58 @@ footer .copyright{
 }
 
 
+/*About page*/
+
+#about-header{
+  height: 40vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-image: url(img/about/banner.png);
+}
+
+#about-header h2{
+  color: white;
+}
+
+#about-head{
+  display: flex;
+  align-items: center;
+}
+
+#about-head div{
+  padding-left: 40px;
+}
+
+#about-head p{
+  color: black;
+}
+
+#about-head img{
+  width: 50%;
+  height: auto;
+}
+
+#about-app{
+  text-align: center;
+}
+
+#about-app .video{
+  width: 70%;
+  height: 100%;
+  margin: 30px auto 0 auto;
+}
+
+#about-app .video video{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+
 
 
 
@@ -927,6 +981,26 @@ footer .copyright{
   }
 
 
+  /*About page*/
+
+  #about-head{
+    flex-direction: column;
+  }
+
+  #about-head img{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #about-head div{
+    padding-left: 0px;
+  }
+
+  #about-app .video{
+    width: 100%;
+  }
+
+  
   
 
 }
