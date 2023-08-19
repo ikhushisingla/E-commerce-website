@@ -38,7 +38,7 @@
   
   p {
     font-size: 16px;
-    color: #465b52;
+    color: #4e665c;
     margin: 15px 0 20px 0;
   }
   
@@ -161,6 +161,7 @@
   #hero h1{
     color: #088178;
   }
+
 
   #hero button{
     background: url(img/button.png);
@@ -556,7 +557,7 @@ footer .copyright{
   flex-direction: column;
 }
 
-#page-header h2 ,p{
+#page-header h2,p{
   color: white;
 }
 
