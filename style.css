@@ -234,6 +234,10 @@
     text-align: center;
   }
 
+  #product1 p{
+    color: black;
+  }
+
   #product1 .pro-container{
     display: flex;
     justify-content: space-between;
@@ -297,7 +301,7 @@
     line-height: 40px;
     border-radius: 50px;
     background-color: #e8f6ea;
-    color: #088178;
+    color: #309790;
     border: 1px solid #cce7d0;
     position: absolute;
     bottom: 20px;
@@ -339,9 +343,9 @@
 }
 
 #sm-banner{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 #sm-banner .banner-box{
@@ -355,7 +359,6 @@
     background-size: cover;
     background-position: center;
     padding: 30px;
-
 }
 
 #sm-banner .banner-box2{
@@ -442,7 +445,6 @@
 #newsletter .form{
   display: flex;
   width: 40%;
-
 }
 
 #newsletter h4{
